@@ -1,0 +1,94 @@
+ .body{ 
+margin: 0px;
+padding: 0px;
+font-family: 'Courier New', Courier, monospace;
+overflow-x: hidden;
+}
+#header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    background-color: white;
+    top: 0;
+}
+
+#header-logo img{
+display: flex;
+margin: 10px;
+width: 100%;
+height: 29px;
+}
+nav{
+display: flex;
+gap: 20px;
+ flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    color: #000;
+}
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+#image-BR-Architects{
+    display: flex;
+    border: 1px solid black;
+    width: 100%;
+    height: auto;
+}
+#image-BR-Architects img{
+    width: 100%;
+    height: auto;
+}
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    width: 100%;
+    height: auto;
+}
+/*  
+.projects.photo {
+    display: flex;
+    flex-wrap: row;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.w3-display-container {
+    position: relative;
+    
+    width: 60%;
+    height: auto;
+}
+.w3-display-topleft {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 16px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+#img-container {
+    width: 270px;
+    
+}
+#img-container img 
+{
+    width: 100%;
+}*/
+#image-projects {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#image-projects img {
+    width: 100%;
+    height: auto;
+}
